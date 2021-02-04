@@ -2,32 +2,35 @@
 /**
  * Write a description of class Die here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (elyse chan)
+ * @version (2/2/21)
  */
+
+import java.util.Scanner;
 public class Die
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private int dice1;
+    private int dice2;
+    private int sum;
     /**
      * Constructor for objects of class Die
      */
     public Die()
+    
     {
-        // initialise instance variables
-        x = 0;
+        dice1 = 0;
+        dice2 = 0;
+        sum = 0;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public void roll() 
     {
-        // put your code here
-        return x + y;
+        dice1 = (int)(Math.random() * 6 +1);
+        dice2 = (int)(Math.random() * 6 +1);
+        sum = dice1 + dice2;
+    }
+    public int getRoll()
+    {
+        return sum;
     }
 }
