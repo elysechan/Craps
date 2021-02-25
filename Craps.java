@@ -114,3 +114,26 @@ public class Craps
 
 }
 
+
+
+/* 
+
+COMMENTS FROM THE INSTRUCTOR:
+
+Wow, Elyse. This is a really nice implementation of the Craps game, 
+and I love that you split it up into a few different static methods:
+nice work! You did a great job implementing the default response (Y/n)
+feature as required by the assignment (although it wasn't clear what
+the default value would be--ordinarily you capitalize the default 
+value in the message to indicate that).
+
+One nitpick: Once I've started playing the game, I (probably) don't
+need to be asked if I want to see the instructions every time I play.
+There are ways to fix that issue, of course.
+
+Overall, outstanding work!
+
+SCORE: 16/15
+
+*/
+
